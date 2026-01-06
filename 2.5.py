@@ -18,6 +18,6 @@ while True:
         commit_msg = f"Auto backup: {time.strftime('%Y-%m-%d %H:%M:%S')}"
         repo.index.commit(commit_msg)
         repo.remotes.origin.push()
-        print("Бэкап создан")
+        print("Данные сохранены")
     print("Проверка закончилась")
     time.sleep(CHECK_INTERVAL)
