@@ -2,9 +2,8 @@ import os
 import time
 from git import Repo
 
-WATCH_DIR = "/home/user/important_files"  # что бэкапим
-REPO_DIR = "./"        # git-репозиторий
-CHECK_INTERVAL = 60                        # секунд
+REPO_DIR = "./"
+CHECK_INTERVAL = 60
 
 repo = Repo(REPO_DIR)
 
